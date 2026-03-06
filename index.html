@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>Responsive Tailwind Template</title>
+
+     <script src="https://cdn.tailwindcss.com"></script>
+
+  </head>
+
+     <body class="font-sans">
+
+     <nav class="bg-gray-800 text-white p-4">
+         <div class="container mx-auto flex justify-between items-center">
+             <h1 class="text-xl font-bold">MyWebsite</h1>
+
+             <ul class="flex gap-6">
+                  <li><a href="#" class="hover:text-gray-300">Home</a></li>
+                  <li><a href="#" class="hover:text-gray-300">About</a></li>
+                  <li><a href="#" class="hover:text-gray-300">Services</a></li>
+                  <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+              </ul>
+          </div>  
+     </nav> 
+
+
+     <section class="h-screen flex items-center justify-center text-center bg-cover bg-center"
+         style="background-image: url('./1.jpg');">
+
+         <div class="bg-white bg-opacity-70 p-10 rounded">
+             <h1 class="text-4xl font-bold mb-4">Welcome to My Website</h1>
+             <p class="mb-6">This is a simple responsive template built using Tailwind CSS.</p>
+
+             <button class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-700">
+                 Get Started
+              </button>
+
+            </div>
+       </section>
+
+     <section class="container mx-auto p-10">
+
+         <h2 class="text-3xl text-center font-bold mb-8">Image Gallery</h2>
+
+         <div class="grid grid-cols-3 gap-4">
+             <img src="./2.jpg"class="rounded-lg shadow-lg hover:scale-105 transition">
+             <img src="./6.jpg"class="rounded-lg shadow-lg hover:scale-105 transition">
+             <img src="./4.jpg"class="rounded-lg shadow-lg hover:scale-105 transition">
+             <img src="./5.jpg"class="rounded-lg shadow-lg hover:scale-105 transition">
+             <img src="./3.jpg"class="rounded-lg shadow-lg hover:scale-105 transition">
+             <img src="./7.jpg"class="rounded-lg shadow-lg hover:scale-105 transition">
+         </div>
+       </section>
+
+     <section class="bg-gray-100 p-10">
+
+           <h2 class="text-3xl text-center font-bold mb-6">Contact Us</h2>
+           <div class="max-w-md mx-auto">
+             <form class="space-y-4">
+                 <input type="text" placeholder="Your Name"class="w-full border rounded p-2 focus:outline-none focus:ring">
+                 <input type="email" placeholder="Your Email"class="w-full border rounded p-2 focus:outline-none focus:ring">
+                 <textarea placeholder="Your Message"class="w-full border rounded p-2 focus:outline-none focus:ring"></textarea>
+                 <button class="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-700">
+                      Submit
+                 </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+     <footer class="bg-gray-900 text-white text-center p-6">
+
+         <p> 2026 MyWebsite. Created by Um e Habiba.</p>
+
+         <div class="mt-2">
+             <a href="https://www.linkedin.com/in/um-e-habiba-031b6a301/" class="mx-2 hover:text-gray-400">LinkedIn</a> 
+             <a href="https://twitter.com/ume_habiba" class="mx-2 hover:text-gray-400">Twitter</a>
+             <a href="https://github.com/UmeHabiba2416" class="mx-2 hover:text-gray-400">Github</a>
+         </div>
+     </footer>
+  </body>
+</html>
